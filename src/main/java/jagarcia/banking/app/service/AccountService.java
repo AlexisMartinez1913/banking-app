@@ -6,4 +6,5 @@ import jagarcia.banking.app.entity.Account;
 public interface AccountService {
     AccountDto createAccount(AccountDto accountDto);
     AccountDto getAccountById(long id);
+    AccountDto deposit(Long id, double amount);
 }
